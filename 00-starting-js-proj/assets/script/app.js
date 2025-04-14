@@ -22,8 +22,15 @@ else {
     console.log ("10 is not equal to 10");
 }
 
-function GreetUser () {
-    console.log ("Hello! How are you?");
+function GreetUser (userName, userAge = "Hello") {
+
+
+    return `Hello ${userName}, you are ${userAge} years old`;
 }
 
-GreetUser ();
+
+function conbine (num1, num2, num3) {
+    return num1 * num2 / num3;
+}
+
+return conbine (10, 5, 2);
