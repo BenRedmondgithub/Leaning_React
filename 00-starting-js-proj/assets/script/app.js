@@ -29,8 +29,8 @@ function GreetUser (userName, userAge = "Hello") {
 }
 
 
-function conbine (num1, num2, num3) {
+function combine (num1, num2, num3) {
     return num1 * num2 / num3;
 }
 
-return conbine (10, 5, 2);
+console.log (combine (10, 5, 2)); 
